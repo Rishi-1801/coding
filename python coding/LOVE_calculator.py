@@ -1,0 +1,17 @@
+p1=input("enter the 1st person name")
+p2=input("enter the 2nd person name")
+d1= p1.lower()
+d2=p2.lower()
+c1=int(d1.count('t')) +int(d2.count('t'))
+c1=c1+int(d1.count('r'))+int(d2.count('r'))
+c1=c1+int(d1.count('u'))+int(d2.count('u'))
+c1=c1+int(d1.count('e'))+int(d2.count('e'))
+a1=str(c1)
+c2=int(d1.count('l')) +int(d2.count('l'))
+c2=c2+int(d1.count('o'))+int(d2.count('o'))
+c2=c2+int(d1.count('v'))+int(d2.count('v'))
+c2=c2+int(d1.count('e'))+int(d2.count('e'))
+a2=str(c2)
+print("the love percent is " + a1 + a2)
+# string.lower() is used to convert string into lower case
+# string.count() is used to count the particular letter in that string
